@@ -1,0 +1,50 @@
+.pgm_img_sec {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pgm_img_sec div {
+    cursor: pointer;
+}
+
+.program_img {
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.caption {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(12, 0, 92, 0.387), rgba(12, 0, 92, 0.387));
+    position: absolute;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+
+}
+
+.caption>img {
+    height: 100px;
+}
+
+.caption>p {
+    color: white;
+}
+
+.pgm_img_sec>div {
+    position: relative;
+}
+
+.pgm_img_sec>div:hover .caption {
+    opacity: 1;
+    padding-top: 0%;
+}

@@ -1,0 +1,23 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    border-radius: 10px;
+    gap: 26px;
+    width: 80vw;
+}
+.gallery_img{
+    border-radius: 10px;
+    width: 23%;
+    cursor: pointer;
+}
+.campus_btn{
+    background-color: #212ea0;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}

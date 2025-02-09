@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 80vw;
+    margin: auto;
+    border-top: 1px solid #adadad;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer :nth-child(2){
+    display: flex;
+    gap: 10px;
+}

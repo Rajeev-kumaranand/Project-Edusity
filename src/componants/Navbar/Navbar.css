@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  font-size:17px;
+  padding: 10px 150px;
+  position: fixed;
+  top: 0%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar>ul{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  background-color: rgb(255, 252, 252);
+  padding: 10px 20px;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.dark{
+  background-color: #212ea0;
+}
+.navbar ul li{
+  cursor: pointer;
+}

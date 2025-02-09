@@ -1,0 +1,59 @@
+.contact_boss{
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+.contact{
+width: 35vw;
+}
+.contact_col{
+    width: 35vw;
+    height: 40px;
+}
+.contact p{
+    color: #676767;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+.contact h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact h1 img{
+    margin-left: 10px;
+    width: 40px;
+}
+.contact p img{
+    width: 27px;
+    margin-right: 10px;
+}
+.contact :nth-child(2){
+    margin-bottom: 15px;
+}
+.contact_col form input,.contact_col form textarea{
+    display: block;
+    background: #EBECFE;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: none;
+    font-size: 14px;
+}
+.contact_col form label{
+    color: #676767;
+    font-size: 16px;
+}
+.contact_col form button{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.contact_col span{
+    color: #676767;
+    font-size: 15px;
+}

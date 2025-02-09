@@ -1,0 +1,16 @@
+.tittle{
+    margin-top: 50px;
+    text-align: center;
+    color: #212EA0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.subtittle{
+    color: #000f38;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
