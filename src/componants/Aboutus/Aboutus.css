@@ -38,3 +38,15 @@
 .about_left{
     position: relative;
 }
+/* -------------------EC commited------------------- */
+.play_iconEC {
+    height: 60px; 
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    z-index: 10;
+    cursor: pointer;
+}
+.about_leftEC{
+    position: relative;
+}
